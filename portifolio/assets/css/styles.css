@@ -1,0 +1,153 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 10px;
+    background-color: #8F73F0;
+}
+
+body {
+    width: 50%;
+    font-size: 1.6rem;
+    margin: 0 auto;
+    background-color: #F0E15B;
+    padding: 20px;
+    border: 3px solid #67F0B9;
+}
+
+h1 {
+    font-size: 3.2rem;
+    margin: 0 0 20px 0;
+    color: #8F73F0;
+    text-align: center;
+}
+
+h2 {
+    margin: 20px 0;
+    color: #8F73F0;
+    text-align: center;
+}
+
+p {
+    margin-top: 20px;
+    text-align: justify;
+    line-height: 2;
+    letter-spacing: 1px;
+    text-indent: 20px;
+}
+
+h3 {
+    margin: 20px 0;
+    text-align: center;
+    color: #8F73F0;
+}
+
+ul {
+    margin-bottom: 20px;
+    list-style: none;
+}
+
+ul li {
+    text-align: center;
+}
+
+span,
+li {
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    border-radius: 100%;
+}
+
+img.icone {
+    display: inline;
+    width: 50px;
+    height: 50px;
+}
+
+/* || Links */
+
+section.conteudo ul li a {
+    padding-bottom: 2px;
+    font-weight: bold;
+    color: #7B5BF0;
+    text-decoration: none;
+    border-bottom: 1px solid;
+}
+
+section.conteudo ul li a:link {
+    color: #20173d;
+}
+
+section.conteudo ul li a:visited {
+    color: #7B5BF0;
+}
+
+section.conteudo ul li a:hover {
+    color: #7B5BF0;
+    border-bottom: none;
+}
+
+section.conteudo ul li a:focus {
+    color: #F09C8B;
+    outline: none;
+    border-bottom: none;
+}
+
+section.conteudo ul li a:active {
+    color: #67F0B9;
+}
+
+/* || Layout */
+
+section.conteudo {
+    margin-top: 0;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #8F73F0;
+    box-shadow: 0px 0px 10px #8F73F0;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* || Media Queries */
+
+@media (max-width: 420px) {
+    body {
+        width: 80%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    h1,
+    h2 {
+        margin: 0 0 20px 0;
+    }
+
+    p {
+        text-align: justify;
+        font-size: 0.8em;
+        line-height: 1.5em;
+        letter-spacing: 0;
+        margin: 5px 0 10px 0;
+    }
+
+    img {
+        width: 100px;
+    }
+}
